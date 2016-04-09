@@ -185,7 +185,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe 'ignite::node_js'
     chef.add_recipe 'ignite::ruby'
     chef.add_recipe 'ignite::postgresql'
-    chef.add_recipe 'ignite::nginx'
+#    chef.add_recipe 'ignite::nginx'
 #   chef.add_recipe 'ignite::redis'
 
   end

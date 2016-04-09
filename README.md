@@ -1,4 +1,4 @@
-# Vagrent-Ignite
+# Vagrent-Chef-Ignite
 
 A collection of Chef recipes for provisioning a Vagrent based Linux
 development environment using Chef solo. This is primarly an integration
