@@ -133,6 +133,12 @@ Vagrant.configure("2") do |config|
           "name" => "express"
         },
         {
+          "name" => "gulp"                     #
+        },
+        {
+          "name" => "typescript"               # https://www.npmjs.com/package/gulp
+        },
+        {
           "name"    => "async",
           "version" => "0.6.2"
         }
