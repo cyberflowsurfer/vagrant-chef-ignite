@@ -1,0 +1,33 @@
+# Ignite::Cheffile
+#   Inventory of cookbooks used to provision VMs
+#
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'dpkg_packages', git: "https://gitlab.acid.cl/acidlabs/chef-dpkg-packages.git"
+cookbook 'fail2ban'
+cookbook 'hostnames'
+cookbook 'nodejs',        git: "https://github.com/redguide/nodejs.git"
+cookbook 'memcached'
+cookbook 'nginx',         git: "https://gitlab.acid.cl/acidlabs/chef-nginx.git"
+cookbook 'oh-my-zsh',     git: "https://github.com/hw-cookbooks/oh-my-zsh.git"
+cookbook 'python'
+cookbook 'passenger',     git: "https://gitlab.acid.cl/acidlabs/chef-passenger.git"
+cookbook 'postgresql',    git: "https://github.com/phlipper/chef-postgresql.git"
+cookbook 'redis',         git: "https://github.com/phlipper/chef-redis.git"
+cookbook 'rbenv',         git: 'https://github.com/aminin/chef-rbenv'
+cookbook 'rvm'
+cookbook 'ruby_build'
+cookbook 'ssh-hardening'
+cookbook 'sudo'
+cookbook 'timezone-ii'
+cookbook 'zsh',           git: "https://github.com/arlimus/chef-zsh.git"
+
+# Optional
+cookbook 'mysql', '5.5.3'
+
+cookbook 'vim'
