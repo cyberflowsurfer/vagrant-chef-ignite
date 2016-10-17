@@ -36,7 +36,12 @@ Use standard vagrant commands to manage your instance:
   * ```vagrant-ssh``` - SSH to your instance (or use ```vagrant-ssh-config``` to obtain the necessary inforamtion)
   ...
 
-
+## Users
+  * Two users are provisioned by default
+    * developer
+    * deployer (has sudo privileges)
+  Default passwords match the user name. Use ```openssl passwd -1 "passsword"``` to generate new ones
+  
 ## Contributing
 
 1. Fork it!

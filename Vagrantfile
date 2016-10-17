@@ -33,7 +33,7 @@ CONFIG_USERS = {
       'shell'     => '/bin/zsh',
       'oh-my-zsh' => {
         'plugins' =>   {
-                         'git'   => 'https://raw.githubusercontcd /g/sysent.com/robbyrussell/oh-my-zsh/master/plugins/git/git.plugin.zsh',
+                         'git'   => 'https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/plugins/git/git.plugin.zsh',
                          'rbenv' => 'https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/plugins/rbenv/rbenv.plugin.zsh'
                        },
         'themes'  =>   {

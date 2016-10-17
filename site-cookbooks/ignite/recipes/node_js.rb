@@ -25,7 +25,7 @@
 #      https://github.com/npm/npm/issues/7308
 
 bash "Configure node repo" do
-  code "curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -"
+  code "curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -"
 end
 
 package 'nodejs'
